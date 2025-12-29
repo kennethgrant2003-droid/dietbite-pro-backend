@@ -1,11 +1,30 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 .env
-.DS_Store
+.venv/
+venv/
+ENV/
+env/
 
-# optional: keep PDFs out of github
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Ignore raw knowledge base docs (PDFs)
 kb_docs/
 
-# optional: if you want to rebuild index on server, ignore it
-# kb_index.pkl
+# Allow compiled KB index (IMPORTANT)
+!kb_index.pkl
+
+
