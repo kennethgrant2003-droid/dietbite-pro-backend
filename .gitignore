@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# optional: keep PDFs out of github
+kb_docs/
+
+# optional: if you want to rebuild index on server, ignore it
+# kb_index.pkl

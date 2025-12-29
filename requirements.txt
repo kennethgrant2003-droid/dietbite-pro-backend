@@ -1,0 +1,8 @@
+flask
+flask-cors
+groq
+scikit-learn
+numpy
+pypdf
+gunicorn
+cryptography>=3.1
